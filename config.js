@@ -1,6 +1,6 @@
 //----------------------------------------
 //           COPYRIGHT MIT
-//            2023 @DIEGOSONTECH
+//            2024 @DIEGOSONTECH
 //----------------------------------------
 //                     |
 //                     |
@@ -9,7 +9,7 @@
 // config::
 let config = {
   prefix: process.env.PREFIX === undefined ? '.' : process.env.PREFIX,
-  name: process.env.OWNER_NAME === undefined ? '' : process.env.OWNER_NAME,
+  name: process.env.OWNER_NAME === undefined ? 'Maldives mak' : process.env.OWNER_NAME,
   antilink: process.env.ANTILINK === 'true', //false 
   AUTO_BIO: process.env.AUTO_BIO === 'true', //false 
   CAPTION: process.env.CAPTION === undefined ? 'ᴾᴼᵂᴱᴿᴱᴰ ᴮʸ ⱽᴼᴿᵀᴱᴿˣ⁶⁶⁵™' : process.env.CAPTION,
